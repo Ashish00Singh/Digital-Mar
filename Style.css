@@ -1,0 +1,129 @@
+.navbar-brand img{
+    width: 60px;
+}
+.nav-item a{
+    font-size: 18px;
+}
+
+.carousel-item{
+    width: 100%;
+    max-height: 650px;
+}
+
+.section-2{
+    background-color: aqua;
+    padding-top: 30px;
+    padding: 25px;
+    padding-bottom: 35px;
+    
+}
+.sec-hear{
+    padding: 10px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.card-coll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-imgs{
+    width: 300px;
+}
+.card-cont{
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 10px rgb(193, 132, 132);
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cart-texts{
+    position: absolute;
+    top: 305px;
+    padding: 5px;
+    background-color: rgba(137, 43, 226, 0.462);
+    color: white;
+    transition: all .5s ;
+}
+
+.card-cont:hover .cart-texts{
+    top: 215px;
+}
+.serv-text{
+    width: 480px;
+}
+.service{
+    padding: 32px;
+    /* background-color: white; */
+    /* color: aqua; */
+}
+.service-contt{
+    /* background-image: url(./img/img65.jpg); */
+    background-color: aqua;
+    background-size: 100%;
+}
+.service, .serv-icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.serv-icon img{
+    width: 150px;
+}
+.icon-con{
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+footer{
+    background-color: aqua;
+    
+}
+
+.footer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+}
+.footer img{
+    width: 200px;
+    border-radius: 15px;
+}
+.footer-det{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.footer-sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-sub a{
+    text-decoration: none;
+    color: black;
+}
+
