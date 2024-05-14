@@ -1,15 +1,17 @@
-.navbar-brand img{
-    width: 60px;
+.navbar{
+    box-shadow: 5px 2px 6px ;
 }
 .nav-item a{
     font-size: 18px;
+    font-weight: 600;
+    /* color: white; */
 }
 
 .carousel-item{
     width: 100%;
     max-height: 650px;
 }
-
+/* ------------------------------------------- Section ------------------------------------------------------------------------- / */
 .section-2{
     background-color: aqua;
     padding-top: 30px;
@@ -24,7 +26,7 @@
     text-align: center;
 }
 
-
+/*   ------------------------------------------   section 1 ------------------------------------------------------------------------------------ */ 
 
 .card-coll{
     display: flex;
@@ -34,6 +36,7 @@
 }
 .card-imgs{
     width: 300px;
+    height:350px
 }
 .card-cont{
     border-radius: 10px;
@@ -74,13 +77,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    color: white;
+    /* color: white; */
 }
 .serv-icon img{
     width: 150px;
 }
 .icon-con{
-    color: white;
+    /* color: white; */
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -89,14 +92,12 @@
     align-items: center;
 }
 
-
 footer{
     background-color: aqua;
     
 }
 
 .footer{
-   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
